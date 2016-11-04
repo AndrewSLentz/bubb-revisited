@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  border-bottom: 1px solid #EEE;
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+}
+
+header .logo {
+  background: url(http://www.bubb.com.br/assets/img/sprite.png) no-repeat 0 -177px;
+  -webkit-background-size: 186px 219px;
+  background-size: 186px 219px;
+  display: inline-block;
+  height: 42px;
+  margin-left: 10px;
+  width: 186px;
+}
+
+div.nav-container,
+div.header-right {
+  display: none;
+}
+
+.navigation ul {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+  padding: 0;;
+}
+
+.navigation a {
+  color: #4D4D4D;
+  font-size: 15px;
+  padding: 1rem;
+}
+
+div.header-right {
+  padding-top: 30px;
+}
+
+a.link-social {
+  color: #CCC;
+  font-family: FontAwesome;
+  font-size: 18px;
+  padding: 12px;
+}
+
+a.link-social:hover {
+  color: #3DAFCA;
+}
+
+ul.socials {
+  display: flex;
+  margin-right: 40px;
+}
+
+div.contact {
+  display: flex;
+  flex-flow: column;
+  text-align: right;
+}
+
+.link-email {
+  color: gray;
+  font-size: 13px;
+}
+
+.link-phone {
+  color: #4D4D4D;
+  font-weight: bold;
+}
+
+div.call {
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: -4px;
+  line-height: 38px;
+  margin: 20px 10px 0 10px;
+}
+
+span.big-n-block {
+  display: block;
+  font-size: 75px;
+  letter-spacing: -7px;
+}
+
+.call i {
+  color: #E14D64;
+}
+
+div.sub-call {
+  color: grey;
+  font-size: 19px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin: 30px 10px 0 10px;
+  text-align: justify;
+}
+
+div.list-features {
+  margin: 40px 10px 0 10px;
+}
+
+div.box-feature {
+  min-height: 150px;
+  border: 1px solid #e6e6e6;
+  border-top: 5px solid #8995A2;
+  padding: 20px;
+}
+
+div.box-feature:nth-child(even) {
+  border-top: 5px solid #3dafca;
+}
+
+
+
+@media (min-width: 700px) {
+  .navigation ul {
+    flex-flow: row;
+  }
+  .navigation a {
+    border-bottom: 4px solid #EEE;
+  }
+  .navigation a:hover {
+    border-color: #3498B1;
+    color: #3DAFCA;
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    margin: 0 47px;
+    min-height: 155px;
+  }
+  div.nav-container,
+  div.header-right {
+    display: flex;
+  }
+  div.list-features {
+    margin: 40px 0 0 47px;
+  }
+  div.sub-call {
+    margin: 30px 0 0 47px;
+  }
+  div.call {
+    margin: 20px 0 0 47px;
+  }
+}
