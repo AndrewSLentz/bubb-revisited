@@ -142,9 +142,130 @@ p.box {
   margin-top: 25px;
 }
 
+section.projects {
+  margin: 33px 10px 0 10px;
+}
+
+div.section-heading {
+  text-align: center;
+}
+
+h2.section-heading {
+  font-size: 45px;
+  letter-spacing: -3px;
+  color: #333;
+  font-weight: lighter;
+}
+
+p.section-subheading {
+  margin-top: 15px;
+  color: #999;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+div.box-sites {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 90%;
+}
+
+div.box-site {
+  min-width: 300px;
+  min-height: 230px;
+}
+
+div.site-inner {
+  padding: 20px 15px;
+}
+
+h2.projects {
+  font-size: 26px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #FFF;
+}
+
+p.projects {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 17px;
+  color: #FFF;
+}
+
+a.button-proj {
+  display: block;
+  margin: 10px auto 0 auto;
+  text-align: center;
+  color: #FFF;
+  background-color: #8995A2;
+  padding: 12px 0;
+  max-width: 240px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+a.button-proj:hover {
+  color: #8995A2;
+  background-color: #fff;
+}
+
+.site-1 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/vilela-57b73a6f32018.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-2 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/blue-world-57b73a6e1e0ed.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-3 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/portal-ternura-57b73a6e9c976.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-4 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/vilela-5789342dc22ad.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-5 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/pratfix-57893317a83f3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-6 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/casasantos2-57484db61e5cd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-7 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/juma-5702be7ed8cd8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.site-8 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/oitavo-56a6495663773.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .img-abs {
   min-width: 100%;
   min-height: 100%;
+  left: 0;
+  top: 0;
 }
 
 @media (min-width: 735px) {
@@ -168,6 +289,16 @@ p.box {
 
   div.box-feature {
     width: 40%;
+  }
+
+  div.box-sites {
+    flex-flow: row;
+    flex: 1 1 50%;
+    flex-wrap: wrap;
+  }
+
+  div.box-site {
+    max-width: 50%;
   }
 }
 
