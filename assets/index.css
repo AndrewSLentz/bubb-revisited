@@ -120,26 +120,26 @@ div.box-feature:nth-child(even) {
 }
 
 h1.box {
+  color: #4D4D4D;
   font-size: 30px;
-  color: #4d4d4d;
 }
 
 p.box {
+  color: grey;
   font-size: 15px;
+  font-weight: lighter;
   line-height: 18px;
   margin-top: 15px;
-  color: grey;
-  font-weight: lighter;
 }
 
 .button {
-	display: inline-block;
-	padding: 12px 35px 13px 35px;
+  border: 1px solid #CCC;
+  color: #666;
+  display: inline-block;
   font-size: 16px;
   font-weight: bold;
-  border: 1px solid #ccc;
-  color: #666;
   margin-top: 25px;
+  padding: 12px 35px 13px 35px;
 }
 
 section.projects {
@@ -151,29 +151,29 @@ div.section-heading {
 }
 
 h2.section-heading {
-  font-size: 45px;
-  letter-spacing: -3px;
   color: #333;
+  font-size: 45px;
   font-weight: lighter;
+  letter-spacing: -3px;
 }
 
 p.section-subheading {
-  margin-top: 15px;
   color: #999;
   font-size: 15px;
   font-weight: lighter;
+  margin-top: 15px;
 }
 
 div.box-sites {
-  margin-top: 30px;
   display: flex;
-  flex-flow: column;
   flex: 1 1 90%;
+  flex-flow: column;
+  margin-top: 30px;
 }
 
 div.box-site {
-  min-width: 300px;
   min-height: 230px;
+  min-width: 300px;
 }
 
 div.site-inner {
@@ -181,91 +181,193 @@ div.site-inner {
 }
 
 h2.projects {
+  color: #FFF;
   font-size: 26px;
   letter-spacing: -2px;
   text-align: center;
-  color: #FFF;
 }
 
 p.projects {
-  margin-top: 10px;
-  text-align: center;
+  color: #FFF;
   font-size: 14px;
   font-weight: lighter;
   line-height: 17px;
-  color: #FFF;
+  margin-top: 10px;
+  text-align: center;
 }
 
 a.button-proj {
-  display: block;
-  margin: 10px auto 0 auto;
-  text-align: center;
-  color: #FFF;
   background-color: #8995A2;
-  padding: 12px 0;
-  max-width: 240px;
-  font-size: 16px;
   box-sizing: border-box;
+  color: #FFF;
+  display: block;
+  font-size: 16px;
+  margin: 10px auto 0 auto;
+  max-width: 240px;
+  padding: 12px 0;
+  text-align: center;
 }
 
 a.button-proj:hover {
+  background-color: #FFF;
   color: #8995A2;
-  background-color: #fff;
 }
 
 .site-1 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/vilela-57b73a6f32018.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/vilela-57b73a6f32018.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-2 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/blue-world-57b73a6e1e0ed.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/blue-world-57b73a6e1e0ed.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-3 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/portal-ternura-57b73a6e9c976.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/portal-ternura-57b73a6e9c976.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-4 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/vilela-5789342dc22ad.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/vilela-5789342dc22ad.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-5 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/pratfix-57893317a83f3.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/pratfix-57893317a83f3.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-6 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/casasantos2-57484db61e5cd.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/casasantos2-57484db61e5cd.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-7 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/juma-5702be7ed8cd8.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/juma-5702be7ed8cd8.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .site-8 {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/oitavo-56a6495663773.jpg);
-  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(http://www.bubb.com.br/assets/uploads/medias/medium/oitavo-56a6495663773.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-abs {
-  min-width: 100%;
-  min-height: 100%;
   left: 0;
+  min-height: 100%;
+  min-width: 100%;
   top: 0;
+}
+
+a.more-button {
+  background-color: #3DAFCA;
+  color: #FFF;
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
+  height: 54px;
+  line-height: 54px;
+  margin: 20px auto 0 auto;
+  max-width: 350px;
+  padding: 0 18px;
+  text-align: center;
+}
+
+a.more-button:hover {
+  background-color: #3498B1;
+}
+
+section.about {
+  margin: 30px 0 20px 0;
+}
+
+div.about-container {
+  display: flex;
+  flex-flow: column;
+  margin: 10px 10px 0 10px;
+}
+
+p.text {
+  color: grey;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: -.1px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+div.picture {
+  background-color: #4C535F;
+  color: #797F8B;
+  margin-top: 30px;
+  padding: 19px 0 19px 28px;
+  width: 100%;
+}
+
+div.list-curiosities {
+  display: flex;
+  flex-flow: column;
+}
+
+div.box-curiosity {
+  display: flex;
+  padding: 12px 0;
+}
+
+div.holder-icon {
+  display: inline-block;
+}
+
+div.inner {
+  padding-left: 20px;
+}
+
+div.numbers {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+div.desc {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+div.icon-computer {
+  background: url(http://www.bubb.com.br/assets/img/sprite-icons@2x.png) no-repeat 0 0;
+  background-size: 50px 182px;
+  height: 45px;
+  width: 50px;
+}
+
+div.icon-coffee {
+  background: url(http://www.bubb.com.br/assets/img/sprite-icons@2x.png) no-repeat 0 -145px;
+  background-size: 50px 182px;
+  height: 45px;
+  width: 50px;
+}
+
+div.icon-ping-pong {
+  background: url(http://www.bubb.com.br/assets/img/sprite-icons@2x.png) no-repeat 0 -55px;
+  background-size: 50px 182px;
+  height: 45px;
+  width: 50px;
+}
+
+div.icon-country {
+  background: url(http://www.bubb.com.br/assets/img/sprite-icons@2x.png) no-repeat 0 -108px;
+  background-size: 50px 182px;
+  height: 27px;
+  margin-top: 10px;
+  width: 50px;
 }
 
 @media (min-width: 735px) {
@@ -292,13 +394,44 @@ a.button-proj:hover {
   }
 
   div.box-sites {
-    flex-flow: row;
     flex: 1 1 50%;
+    flex-flow: row;
     flex-wrap: wrap;
   }
 
   div.box-site {
     max-width: 50%;
+  }
+
+  div.site-inner {
+    visibility: hidden;
+  }
+  div.box-site:hover > div.site-inner {
+    visibility: visible;
+  }
+
+  div.text {
+    margin: 0 auto;
+    max-width: 430px;
+  }
+
+  div.list-curiosities {
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin-right: -60px;
+  }
+
+  div.box-curiosity {
+    margin-right: -60px;
+    width: 50%;
+  }
+
+  div.numbers {
+    font-size: 25px;
+  }
+
+  div.desc {
+    font-size: 15px;
   }
 }
 
@@ -339,17 +472,43 @@ a.button-proj:hover {
   }
 
   div.list-features {
-    margin: 73px 47px 0 47px;
     display: flex;
     flex-wrap: nowrap;
+    margin: 73px 47px 0 47px;
   }
 
   div.box-feature {
-    width: 25%;
     padding: 43px;
+    width: 25%;
   }
 
   p.box {
     margin-top: 20px;
+  }
+
+  div.about-container {
+    flex-flow: row;
+  }
+
+  div.text {
+    width: 50%;
+    padding: 33px 53px 53px 53px;
+    margin-top: 40px;
+  }
+
+  div.picture {
+    width: 50%;
+  }
+
+  div.list-curiosities {
+    flex-flow: column;
+  }
+
+  div.numbers {
+    font-size: 45px;
+  }
+
+  div.desc {
+    font-size: 19px;
   }
 }
