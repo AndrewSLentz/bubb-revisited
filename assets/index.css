@@ -622,4 +622,7 @@ div.customer-boxes {
   .customer-box {
     width: 20%;
   }
+  section.customers {
+    margin-top: 50px;
+  }
 }
