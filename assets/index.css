@@ -370,6 +370,102 @@ div.icon-country {
   width: 50px;
 }
 
+section.customers {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+div.customer-boxes {
+  display: flex;
+  flex-flow: column;
+  margin: 40px 10px 0 10px;
+  justify-content: center;
+}
+
+.customer-box {
+  height: 90px;
+  width: 100%;
+  border: 1px solid #eee;
+  opacity: .7;
+  display: flex;
+}
+
+.customer-box:hover {
+  opacity: 1;
+}
+
+.customer1 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -273px;
+  background-size: 180px 900px;
+  width: 148px;
+  height: 47px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer2 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -560px;
+  background-size: 180px 900px;
+  width: 133px;
+  height: 48px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer3 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -417px;
+  background-size: 180px 900px;
+  width: 82px;
+  height: 34px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer4 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -57px;
+  background-size: 180px 900px;
+  width: 81px;
+  height: 48px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer5 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -163px;
+  background-size: 180px 900px;
+  width: 151px;
+  height: 38px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer6 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -211px;
+  background-size: 180px 900px;
+  width: 121px;
+  height: 53px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer7 {
+  width: 133px;
+  height: 48px;
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 0;
+  background-size: 180px 900px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.customer8 {
+  background: url(http://www.bubb.com.br/assets/img/sprite-logos@2x.gif) no-repeat 0 -662px;
+  background-size: 180px 900px;
+  width: 180px;
+  height: 50px;
+  align-self: center;
+  margin: 0 auto;
+}
+
 @media (min-width: 735px) {
   .navigation ul {
     flex-flow: row;
@@ -432,6 +528,15 @@ div.icon-country {
 
   div.desc {
     font-size: 15px;
+  }
+
+  div.customer-boxes {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .customer-box {
+    width: 45%;
   }
 }
 
@@ -510,5 +615,11 @@ div.icon-country {
 
   div.desc {
     font-size: 19px;
+  }
+  section.about {
+    margin-top: 50px;
+  }
+  .customer-box {
+    width: 20%;
   }
 }
